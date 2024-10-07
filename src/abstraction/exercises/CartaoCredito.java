@@ -1,4 +1,4 @@
 package abstraction.exercises;
 
-public class Seven {
+public class CartaoCredito {
 }
