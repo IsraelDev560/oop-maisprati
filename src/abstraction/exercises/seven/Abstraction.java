@@ -1,12 +1,6 @@
-package abstraction;
-
-import abstraction.exercises.Boleto;
-import abstraction.exercises.CartaoCredito;
-import abstraction.exercises.FormaPagamento;
-import abstraction.exercises.Pix;
+package abstraction.exercises.seven;
 
 import java.text.Normalizer;
-import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 

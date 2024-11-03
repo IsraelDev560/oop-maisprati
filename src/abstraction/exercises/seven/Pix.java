@@ -1,4 +1,4 @@
-package abstraction.exercises;
+package abstraction.exercises.seven;
 
 import java.util.Objects;
 
