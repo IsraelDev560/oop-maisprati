@@ -18,7 +18,8 @@ public abstract class Funcionario {
     protected double porcentagem;
 
     public abstract double calcularPagamento();
-    public abstract double calculoBonus();
+    public abstract double calcularBonus();
+    abstract Funcionario promoverFuncionario(double novoSalario);
 
     public Funcionario(String cargo, String nome, double salario, double porcentagem) {
         this.cargo = cargo;
@@ -27,12 +28,6 @@ public abstract class Funcionario {
         this.porcentagem = porcentagem;
     }
 
-    public void calcularBonus() {
-        double bonus = salario * (porcentagem / 100);
-        double salarioFinal = salario + bonus;
-        System.out.println("Bonus do salário do " + cargo);
-        System.out.println(porcentagem + " % de bonus. Preço final: " + salarioFinal);
-    }
     public void exibirDetalhes() {
         System.out.println("Nome: " + nome);
         System.out.println("Salário: " + salario);

@@ -4,7 +4,7 @@ import inheritance.exercises.Desenvolvedor;
 import inheritance.exercises.Gerente;
 
 /*
- A classe Funcionaro representa funcionarios de uma empresa ou local ficticio.
+ A classe Funcionario representa funcionarios de uma empresa ou local ficticio.
  As subclasses Desenvolvedor e Gerente possuem a função trabalhar() especificas para cada um.
 */
 

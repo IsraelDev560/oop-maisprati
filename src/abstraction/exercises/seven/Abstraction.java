@@ -4,6 +4,11 @@ import java.text.Normalizer;
 import java.util.Locale;
 import java.util.Scanner;
 
+/*
+    Esse código implementa um sistema de pagamento simplificado que permite ao usuário escolher entre três métodos de pagamento: Boleto, Pix e Cartão de Crédito.
+    Dependendo da escolha, o sistema solicita informações específicas para cada forma de pagamento, processa a operação e valida o pagamento.
+ */
+
 public class Abstraction {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
